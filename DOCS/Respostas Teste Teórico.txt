@@ -1,0 +1,77 @@
+1) C
+
+2) A
+
+3) Errado
+
+4) B
+
+5) Verdadeiro
+
+6) C
+
+7) Não existe relacionamento entre objetos, MongoD e Redis
+
+8) Mongo tem um desempenho melhor que o sql. e uma estrutura de dados mais simples de ser visualizada
+
+9) B
+
+10) A
+
+11) B
+
+12) G
+
+13 ) A
+
+14) 		
+
+int input1 = 5;
+int input2 = 25;
+
+input1 = input1 + input2 ;
+input2 = input1 - input2;
+input1 = input1 - input2;
+
+Console.WriteLine(input1 +" - "+ input2);
+
+15) .net core é escalonavel e multiplataforma
+
+16) 
+
+var paises = new List<string> { "USA", "Africa", "Mexico", "Brasil" };
+Console.WriteLine(paises.Find(p=>p.Equals("Brasil")));
+
+17) (F) (V) (F) (V) (F)
+
+18) singlethreading usa só um fila de processamento e o multithreading processa em paralelo
+
+19) typescript usa o javascript e implementa tipos 
+
+20) Express é a uma biblioteca para construção de um rest api com nodejs 
+
+21) B
+
+22) B
+
+23) A
+
+24) E
+
+25) B
+
+26) Framework pois tem que ser seguido o fluxo e estrutura dele.
+
+27) sao diretivas que sao responsaveis pro empacotar codigos e tornalos reultilizaveis e testaveis
+
+28) C
+
+29) D
+
+30) C
+
+31) D
+
+32) B
+
+33) B
