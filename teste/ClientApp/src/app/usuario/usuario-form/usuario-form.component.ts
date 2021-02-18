@@ -7,7 +7,7 @@ import { ActivatedRoute, Router } from '@angular/router';
   templateUrl: './usuario-form.component.html',
 })
 export class UsuarioFormComponent {
-  public usuario: any = { nome: '', cpf: '', email: '', telefone: '', sexo: '', dataNascimento: Date.now };
+  public usuario: any = { nome: '', cpf: '', email: '', telefone: '', sexo: '', dataNascimento: new Date() };
   public _baseUrl = '';
   public id: any;
   constructor(public http: HttpClient, @Inject('BASE_URL') baseUrl: string, private route: ActivatedRoute, public router: Router) {
