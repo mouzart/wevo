@@ -9,6 +9,10 @@
           <tr>
             <td>Nome</td>
             <td>CPF</td>
+            <td>Email</td>
+            <td>Telefone</td>
+            <td>Sexo</td>
+            <td>Data nascimento</td>
             <td>Ações</td>
           </tr>
 
@@ -20,6 +24,18 @@
             </td>
             <td>
               {{ usuario.cpf }}
+            </td>
+            <td>
+              {{ usuario.email }}
+            </td>
+            <td>
+              {{ usuario.telefone }}
+            </td>
+            <td>
+              {{ usuario.sexo }}
+            </td>
+            <td>
+              {{ usuario.dataNascimento }}
             </td>
             <td>
               <a class="btn btn-primary" href="/usuario/{{usuario.id}}"> Editar</a>
